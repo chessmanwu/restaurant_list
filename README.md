@@ -1,40 +1,35 @@
-簡介
+<h2>簡介</h2>
 簡單的餐廳清單，目的是讓使用者查詢並挑選餐廳
 
-功能說明
-餐廳的簡單資料
-照片
-名稱
-分類
-評分
-餐廳的詳細資訊
+<h2>基本功能</h2>
+
+使用者可以在首頁看到所有餐廳與它們的簡單資料：
+餐廳照片
+餐廳名稱
+餐廳分類
+餐廳評分
+
+使用者可以再點進去看餐廳的詳細資訊：
 類別
 地址
 電話
 描述
 圖片
-搜尋功能
+
+使用者可以透過搜尋餐廳名稱及種類 來找到特定的餐廳
 在搜尋欄內輸入關鍵字，按下Search鍵可以搜尋餐廳 搜尋後關鍵字依然會顯示在搜尋欄內
 
-可以篩選出種類（例如：搜尋「義式」會出現「所有的義式餐廳」）
+<h2>環境建置</h2>
+開發環境 Visual Studio Code 
+執行環境 Node.js 
+框架 Express.js
+模板引擎 Express-handlebars
+實用套件 Nodemon
 
-其他功能
-按下左上的「我的餐廳清單」會返回首頁
-
-環境建置
-開發環境 Visual Studio Code v1.57.1
-執行環境 Node.js v10.15.0
-框架 Express.js v4.17.1
-模板引擎 Express-handlebars v5.3.2
-實用套件 Nodemon v2.0.7
-安裝
-在終端機輸入指令 Clone 此專案至電腦
-git clone https://github.com/zeqas/restaurant_List_S3A3.git
-進入專案目錄
-cd restaurant_List_S3A3
-安裝相關套件
-npm install
-啟動專案
-npm run dev
-出現以下訊息後，即可在 http://localhost:3000 開始使用
-Express is listening on localhost:3000
+<h2>專案安裝流程</h2> 
+打開你的 terminal，Clone 此專案至本機電腦 git clone https://github.com/Xuan1106/restaurant_list.git
+進入專案資料夾 cd restaurant_list
+安裝 npm 套件 npm install
+安裝 nodemon 套件 (若未安裝) npm install -g nodemon
+啟動伺服器，執行 app.js 檔案 nodemon app.js
+當終端機出現以下字樣，表示啟動完成 Express server is listening on localhost:3000
