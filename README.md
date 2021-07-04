@@ -3,21 +3,16 @@
 
 <h2>基本功能</h2>
 
-使用者可以在首頁看到所有餐廳與它們的簡單資料：
-餐廳照片
-餐廳名稱
-餐廳分類
-餐廳評分
+使用者可以在首頁看到所有餐廳與它們的簡單資料：<br>
+餐廳照片、餐廳名稱<br>
+餐廳分類、餐廳評分<br>
 
 使用者可以再點進去看餐廳的詳細資訊：
-類別
-地址
-電話
-描述
-圖片
+類別、地址、電話、描述、圖片
 
-使用者可以透過搜尋餐廳名稱及種類 來找到特定的餐廳
-在搜尋欄內輸入關鍵字，按下Search鍵可以搜尋餐廳 搜尋後關鍵字依然會顯示在搜尋欄內
+使用者可以透過搜尋餐廳名稱及種類 來找到特定的餐廳<br>
+在搜尋欄內輸入關鍵字，按下Search鍵可以搜尋餐廳 <br>
+搜尋後關鍵字依然會顯示在搜尋欄內<br>
 
 <h2>環境建置</h2>
 開發環境 Visual Studio Code <br>
@@ -27,7 +22,8 @@
 實用套件 Nodemon<br>
 
 <h2>專案安裝流程</h2> 
-打開你的 terminal，Clone 此專案至本機電腦 git clone https://github.com/Xuan1106/restaurant_list.git<br>
+打開你的 terminal<br>
+Clone 此專案至本機電腦 git clone https://github.com/Xuan1106/restaurant_list.git<br>
 進入專案資料夾 cd restaurant_list<br>
 安裝 npm 套件 npm install<br>
 安裝 nodemon 套件 (若未安裝) npm install -g nodemon<br>
