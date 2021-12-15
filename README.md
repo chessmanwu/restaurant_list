@@ -23,7 +23,7 @@
 
 <h2>專案安裝流程</h2> 
 打開你的 terminal<br>
-Clone 此專案至本機電腦 git clone https://github.com/Xuan1106/restaurant_list.git<br>
+Clone 此專案至本機電腦 git clone <br>
 進入專案資料夾 cd restaurant_list<br>
 安裝 npm 套件 npm install<br>
 安裝 nodemon 套件 (若未安裝) npm install -g nodemon<br>
